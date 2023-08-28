@@ -1,0 +1,44 @@
+.sidebar-main {
+    height: 100%;
+    width: 100%;
+    background-color: #141322;   
+}
+
+.sidebar-list {
+    height: auto; 
+    width: 100%;
+}
+
+.sidebar-list #active {   
+    background-color: #3a394c;
+}
+
+.sidebar-row {
+    width: 85%;
+    margin-top: 5%;
+    border-radius: 10px;
+    height: 50px;    
+    list-style-type: none;    
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sidebar-list .sidebar-row:hover {
+    cursor: pointer;
+    background-color: #3a394c;
+}
+
+.sidebar-row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.sidebar-row #title {
+    flex: 70%;
+    
+}
